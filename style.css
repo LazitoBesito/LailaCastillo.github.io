@@ -1,0 +1,9 @@
+*{
+    font-family: "Delius", cursive;;
+}
+header{
+    background-color: #CD5C5C;
+}
+.nav-item a{
+    color: white;
+}
