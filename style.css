@@ -1,9 +1,86 @@
-*{
-    font-family: "Delius", cursive;;
+* {
+    font-family: "Delius", cursive;
+    ;
 }
-header{
-    background-color: #CD5C5C;
+
+header {
+    background: rgb(140,29,29);
+background: linear-gradient(90deg, rgba(140,29,29,1) 0%, rgba(200,28,66,1) 50%, rgba(140,29,29,1) 100%);
 }
-.nav-item a{
-    color: white;
+
+.nav-item a {
+    color: #ddc5ac;
+}
+
+.nav-item a:hover {
+    color: #778989;
+}
+
+.fs-4 {
+    color: #ddc5ac;
+}
+
+#app {
+    color: #8c1d1d;
+}
+
+.cajitahabilidades {
+    background:background: rgb(140,29,29);
+    background: linear-gradient(90deg, rgba(140,29,29,1) 0%, rgba(200,28,66,1) 50%, rgba(140,29,29,1) 100%);;
+    color: #ddc5ac;
+}
+
+.titulo {
+    color: #ddc5ac;
+}
+
+.btn-proyecto {
+    background-color: #8c1d1d;
+}
+
+.btn-proyecto a {
+    text-decoration: none;
+    color: #ddc5ac;
+}
+
+.card .card-subtitle {
+    color: #8c1d1d;
+}
+
+#contacto {
+    background-color: #ddc5ac;
+}
+
+.hero .boton-cv {
+    background-color: #8c1d1d;
+    border-color: #8c1d1d;
+    color: #ddc5ac;
+}
+
+.cajitahabilidades .boton-skill {
+    background-color: #778989;
+    border-color: #778989;
+    color: #ddc5ac;
+}
+
+#contacto .boton-contacto {
+    background-color: #8c1d1d;
+    border-color: #778989;
+    color: #ddc5ac;
+}
+
+.proyectoparadecorar {
+    background: rgb(221,197,172);
+background: radial-gradient(circle, rgba(221,197,172,1) 37%, rgba(140,29,29,1) 100%);
+}
+
+.primerainfo {
+    background: rgb(221,197,172);
+background: radial-gradient(circle, rgba(221,197,172,1) 37%, rgba(140,29,29,1) 100%);
+}
+footer li a i{
+    color: #c81c42;
+}
+footer p{
+
 }

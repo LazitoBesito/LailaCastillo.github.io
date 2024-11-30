@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom body-pagina">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"></use>
@@ -37,7 +37,7 @@
     </header>
     <main>
         <div class="hero">
-            <div class="px-4 py-5 my-5 text-center">
+            <div class="px-4 py-5 my-5 text-center primerainfo">
                 <img class="d-block mx-auto mb-4" src="assets/Foto de perfil uno.jpeg" alt="" width="250">
                 <h1 class="display-5 fw-bold text-body-emphasis">Laila Zoe Castillo Rangel</h1>
                 <!--Traernos el javascript-->
@@ -48,122 +48,136 @@
                         responsive
                         grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Go to my CV</button>
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3 boton-cv">Go to my CV</button>
                     </div>
                 </div>
             </div>
         </div>
         <!--Habilidades-->
-        <div class="habilidades container px-4 py-5" id="hanging-icons habilidades">
-            <h2 class="pb-2 border-bottom">Skills</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="col d-flex align-items-start">
-                    <div
-                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
-                        <!--Siempre se cambia el svg por el i para poner el icono-->
-                        <i class="bi bi-laptop"></i>
+        <div class="cajitahabilidades">
+            <div class="habilidades container px-4 py-5" id="hanging-icons habilidades">
+                <h2 class="pb-2 border-bottom">Skills</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="icon-square d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+                            <!--Siempre se cambia el svg por el i para poner el icono-->
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <div>
+                            <h3 class="fs-2">FrontEnd development (HTML, CSS, JavaScript)</h3>
+                            <p>He creado sitios web interactivos durante el bookcamp de TecnoloChicas</p>
+                            <a href="#" class="btn btn-primary boton-skill">
+                                Primary button
+                            </a>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="fs-2 text-body-emphasis">FrontEnd development (HTML, CSS, JavaScript)</h3>
-                        <p>He creado sitios web interactivos durante el bookcamp de TecnoloChicas</p>
-                        <a href="#" class="btn btn-primary">
-                            Primary button
-                        </a>
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="icon-square d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+                            <i class="bi bi-translate"></i>
+                        </div>
+                        <div>
+                            <h3 class="fs-2">Languages</h3>
+                            <p>I am a native spanish speaker with a B1 level of English proficiency, and I am currently
+                                begginnning to study Mandarin .</p>
+                            <a href="#" class="btn btn-primary boton-skill">
+                                Primary button
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <div
-                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
-                        <i class="bi bi-translate"></i>
-                    </div>
-                    <div>
-                        <h3 class="fs-2 text-body-emphasis">Languages</h3>
-                        <p>I am a native spanish speaker with a B1 level of English proficiency, and I am currently
-                            begginnning to study Mandarin .</p>
-                        <a href="#" class="btn btn-primary">
-                            Primary button
-                        </a>
-                    </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <div
-                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
-                        <i class="bi bi-camera"></i>
-                    </div>
-                    <div>
-                        <h3 class="fs-2 text-body-emphasis">Audiovisual content creator</h3>
-                        <p>Specialized in reviews of Asian beauty and self-care products (editing, desing, and
-                            storytelling).</p>
-                        <a href="#" class="btn btn-primary">
-                            Primary button
-                        </a>
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="icon-square  d-inline-flex align-items-center justify-content-center fs-2 flex-shrink-0 me-3">
+                            <i class="bi bi-camera"></i>
+                        </div>
+                        <div>
+                            <h3 class="fs-2">Audiovisual content creator</h3>
+                            <p>Specialized in reviews of Asian beauty and self-care products (editing, desing, and
+                                storytelling).</p>
+                            <a href="#" class="btn btn-primary boton-skill">
+                                Primary button
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!--Colocar nuestros proyectos-->
-        <div id="proyectos" class="proyectos container">
-            <h2 class="pb-2 border-bottom">Projects</h2>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img class="bd-placeholder-img card-img-top" src="assets/Clonpinterest.png" alt="">
-                        <div class="card-body">
-                            <p class="card-text">Clon de pinterest.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
-                                            href="https://pinterestclon-lake.vercel.app/">Ver</a></button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
-                                            href="https://github.com/LazitoBesito/Pinterestclon">Github</a></button>
+        <div class="proyectoparadecorar">
+            <div id="proyectos" class="proyectos container mt-5">
+                <h2 class="pb-2 border-bottom">Projects</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" src="assets/Clonpinterest.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">Clon de pinterest.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a
+                                                target="_blank"
+                                                href="https://pinterestclon-lake.vercel.app/">Ver</a></button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a
+                                                target="_blank"
+                                                href="https://github.com/LazitoBesito/Pinterestclon">Github</a></button>
+                                    </div>
+                                    <small class="text-body-secondary">HTML, CSS y JavaScript</small>
                                 </div>
-                                <small class="text-body-secondary">HTML, CSS y JavaScript</small>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img class="bd-placeholder-img card-img-top" src="assets/PrimeraPagina.png" alt="">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
-                                            href="https://primera-pagina-xi.vercel.app/">Ver</a></button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank"
-                                            href="https://github.com/LazitoBesito/PrimeraPagina">Github</a></button>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" src="assets/PrimeraPagina.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a
+                                                target="_blank"
+                                                href="https://primera-pagina-xi.vercel.app/">Ver</a></button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a
+                                                target="_blank"
+                                                href="https://github.com/LazitoBesito/PrimeraPagina">Github</a></button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
                                 </div>
-                                <small class="text-body-secondary">9 mins</small>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>Placeholder</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                    fill="#eceeef" dy=".3em">Thumbnail</text>
+                            </svg>
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-secondary btn-proyecto">View</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-secondary btn-proyecto">Edit</button>
+                                    </div>
+                                    <small class="text-body-secondary">9 mins</small>
                                 </div>
-                                <small class="text-body-secondary">9 mins</small>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!--Carrusel referencias-->
         <div id="testimonios" class="testimonios container mt-5">
             <h2 class="pb-2 border-bottom">Work references</h2>
@@ -173,16 +187,16 @@
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
                             <!--card-->
-                            <div class="card" style="width: 18rem;">
-                                <img src="assets/Foto maestra del curso.jpg" class="card-img-top rounded-circle"
+                            <div class="card border-0" style="width: 20rem;">
+                                <img src="assets/Foto maestra del curso.jpg" class="card-img-top rounded-circle "
                                     alt="...">
                                 <h5 class="card-title text-center">Anel Montes De Oca</h5>
                                 <h6 class="card-subtitle text-center">Mentora en TecnoloChicas Pro</h6>
                                 <div class="card-body">
-                                    <p class="card-text">"Laila Zoe muestra un rápido progreso en la adquisición de
-                                        habilidades técnicas clave y una gran disposición para colaborar en proyectos.
+                                    <p class="card-text">"Laila muestra un rápido progreso en la adquisición de
+                                        habilidades, técnicas clave y una gran disposición para colaborar en proyectos.
                                         Su actitud positiva y su voluntad de aprender constantemente son cualidades
-                                        valiosas en el campo de la programación. No tengo dudas de que Laila seguirá
+                                        valiosas. No tengo dudas de que seguirá
                                         creciendo y haciendo contribuciones significativas como desarrolladora frontend
                                         en el futuro."
                                     </p>
@@ -194,7 +208,7 @@
                     <div class="carousel-item">
                         <div class="d-flex justify-content-center">
                             <!--card-->
-                            <div class="card" style="width: 18rem;">
+                            <div class="card border-0" style="width: 20rem;">
                                 <img src="assets/usuario icono.png" class="card-img-top" alt="...">
                                 <h5 class="card-title text-center">Anel Montes De Oca</h5>
                                 <h6 class="card-subtitle text-center">Mentora en TecnoloChicas Pro</h6>
@@ -210,7 +224,7 @@
                     <div class="carousel-item">
                         <div class="d-flex justify-content-center">
                             <!--card-->
-                            <div class="card" style="width: 18rem;">
+                            <div class="card border-0" style="width: 20rem;">
                                 <img src="assets/usuario icono.png" class="card-img-top" alt="...">
                                 <h5 class="card-title text-center">Anel Montes De Oca</h5>
                                 <h6 class="card-subtitle text-center">Mentora en TecnoloChicas Pro</h6>
@@ -240,31 +254,33 @@
         <!--Contacto-->
         <div id="contacto" class="px-4 py-5 my-5 text-center">
             <i class="d-block mx-auto mb-4 bi-chat-left-text fs-2"></i>
-            <h3 class="text-body-emphasis">Contact me</h3>
+            <h3 class="">Contact me</h3>
             <p class="col-lg-6 mx-auto mb-4">
                 Contact me to can make a project of web desing.
             </p>
-            <a href="mailto:lailazoe367@gmail.com&subject=Project%20together&body=we%20would%20like%20if%20you%20particpe%20in%20our%20project."
-                target=">
-                <button class=" btn btn-primary px-5 mb-5" type="button">
-                Click here to make a project with me..
-                </button>
-            </a>
+            <div class="d-grid gap-2 d-sm-flex justify-content-center">
+                <a href="mailto:lailazoe367@gmail.com&subject=Project%20together&body=we%20would%20like%20if%20you%20particpe%20in%20our%20project."
+                    target=">
+                <button type=" button" class="btn btn-primary px-5 mb-5 boton-contacto">
+                    Click here to make a project with me..
+                    </button>
+                </a>
+            </div>
         </div>
     </main>
     <!--Footer-->
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="https://www.instagram.com/_lazitorosita_/" target="_blank"
-                    class="nav-link px-2 text-body-secondary"><i class="bi bi-instagram fs-5"></i></a></li>
+                    class="nav-link px-2"><i class="bi bi-instagram fs-5"></i></a></li>
             <li class="nav-item"><a href="https://github.com/LazitoBesito" target="_blank"
-                    class="nav-link px-2 text-body-secondary"><i class="bi bi-github fs-5"></i></a>
+                    class="nav-link px-2"><i class="bi bi-github fs-5"></i></a>
             </li>
             <li class="nav-item"><a href="https://www.linkedin.com/in/laila-zoe-castillo-rangel-a3aa01295/"
-                    target="_blank" class="nav-link px-2 text-body-secondary"><i class="bi bi-linkedin fs-5"></i></a>
+                    target="_blank" class="nav-link px-2"><i class="bi bi-linkedin fs-5"></i></a>
             </li>
             <li class="nav-item"><a href="https://wa.me/+525554309173" target="_blank"
-                    class="nav-link px-2 text-body-secondary"><i class="bi bi-whatsapp fs-5"></i></a></li>
+                    class="nav-link px-2"><i class="bi bi-whatsapp fs-5"></i></a></li>
         </ul>
         <p class="text-center text-body-secondary">Creado por Laila Zoe Castillo Rangel.</p>
     </footer>
