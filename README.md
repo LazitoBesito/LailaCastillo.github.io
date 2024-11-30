@@ -19,9 +19,10 @@
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
 
 ### Vista previa
-![Proyecto]()
-![Proyecto]()
-![Proyecto]()
+![Proyecto](assets/portafolio1.png)
+![Proyecto](assets/portafolio2.png)
+![Proyecto](assets/portafolio3.png)
+![Proyecto](assets/portafolio4.png)
 
 ### *Espero que colaboremos nuevamente pronto.* ❤️
 *correo*
