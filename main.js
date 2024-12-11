@@ -4,10 +4,10 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Desarrolladora Frontend Jr.')
+typewriter.typeString('Junior Front-End Developer')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('¡Todo lo que logres imaginar, tambien lo puedes programar!')
+    .typeString('¡If you can imagine it, you can code it!')
     .pauseFor(2500)
     //numero de caracteres que se borraran
     .deleteChars(10)
